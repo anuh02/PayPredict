@@ -1,5 +1,5 @@
 # PayPredict
-The SalaryPredictionApp is a data-driven web application designed to provide developers with precise salary predictions based on insights from the Stack Overflow Developer Survey 2024. By bridging the gap between raw survey data and meaningful predictions, PayPredict empowers developers to make informed career decisions.
+The PayPredict is a data-driven web application designed to provide developers with precise salary predictions based on insights from the Stack Overflow Developer Survey 2024. By bridging the gap between raw survey data and meaningful predictions, PayPredict empowers developers to make informed career decisions.
 
 ## Introduction
 This project is a Machine Learning web application built using Python and Streamlit. The web app predicts salaries based on real-world data. In the first part of the project, we analyze the data and build machine learning models using Linear Regression, Decision trees, and Random Forest regression. We also use GridSearchCV for hyperparameter tuning to optimize the models.
