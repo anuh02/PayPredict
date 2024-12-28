@@ -9,6 +9,7 @@ This project is a Machine Learning web application built using Python and Stream
 - Predicts salaries based on multiple factors.  
 - Uses Linear Regression, Decision Tree, and Random Forest Regressor models.  
 - Web application built with Streamlit.
+- Both dark and light modes.
 
 ## Models used
 The data used for this project comes from the Stack Overflow Developer Survey. It contains information about software developers' demographics, education, experience, job roles, and corresponding salaries. We perform data analysis, data preprocessing, and feature engineering to prepare the data for training our machine learning models.
