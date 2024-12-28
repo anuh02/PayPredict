@@ -29,7 +29,7 @@ The models used in this project are:
 ### Installation  
 1. Clone the repository: `git clone https://github.com/username/repo-name.git`  
 2. Navigate to the project directory: `cd repo-name`  
-3. Install dependencies: `pip install -r requirements.txt`  
+3. Install dependencies   
 4. Run the app: `streamlit run app.py`  
 
 ### Usage  
