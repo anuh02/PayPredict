@@ -6,7 +6,7 @@ import numpy as np
 def load_model():
     with open('Salary_Prediction_app-main\saved_steps.pkl', 'rb') as file:
         da = pickle.load(file)
-    return da
+    return da 
 
 da = load_model()
 
