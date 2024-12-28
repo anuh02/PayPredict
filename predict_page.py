@@ -15,7 +15,7 @@ le_country = da["le_country"]
 le_education = da["le_education"]
 
 def show_predict_page():
-    st.title("Software Developer Salary Prediction")
+    st.title("PayPredict - Software Developer Salary Prediction")
 
     st.write("""### We need some information to predict the salary""")
 
