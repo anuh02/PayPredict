@@ -6,7 +6,10 @@ This project is a Machine Learning web application built using Python and Stream
 ![image](https://github.com/user-attachments/assets/b8eed9d7-a9ea-491d-be91-c50c83c47669)
 
 ## Features
-- Predicts salaries based on multiple factors.  
+- Predicts salaries based on multiple factors.
+- Interactive, responsive graphs to explore salaries based on years of experience and country.
+   Zoom in and out for detailed views.
+   Hover over any point to display salary values in a pop-up box.  
 - Uses Linear Regression, Decision Tree, and Random Forest Regressor models.  
 - Web application built with Streamlit.
 - Both dark and light modes.
