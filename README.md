@@ -4,6 +4,12 @@ The PayPredict is a data-driven web application designed to provide developers w
 ## Introduction
 This project is a Machine Learning web application built using Python and Streamlit. The web app predicts salaries based on real-world data. In the first part of the project, we analyze the data and build machine learning models using Linear Regression, Decision trees, and Random Forest regression. We also use GridSearchCV for hyperparameter tuning to optimize the models.
 ![image](https://github.com/user-attachments/assets/b8eed9d7-a9ea-491d-be91-c50c83c47669)
+![image](https://github.com/user-attachments/assets/8559cd26-690a-4022-8c77-0af50ac1ba7e)
+![image](https://github.com/user-attachments/assets/823205d2-0e88-44d2-9756-f924262f62c1)
+![image](https://github.com/user-attachments/assets/9165058a-98fd-4f06-b9f8-eca03e61bef3)
+
+
+
 
 ## Features
 - Predicts salaries based on multiple factors.
