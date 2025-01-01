@@ -36,7 +36,7 @@ def load_data():
     df = df[["Country", "EdLevel", "YearsCodePro", "Employment", "ConvertedCompYearly"]]
     df = df[df["ConvertedCompYearly"].notnull()]
     df = df.dropna()
-    df = df[df["Employment"] == "Employed full-time"]
+    df = df[df["Employment"] == "Employed, full-time"]
     df = df.drop("Employment", axis=1)
 
     country_map = shorten_categories(df.Country.value_counts(), 400)
@@ -51,6 +51,7 @@ def load_data():
     return df
 
 df = load_data()
+
 
 def show_explore_page():
     st.title("Explore Software Engineer Salaries")
@@ -80,12 +81,13 @@ def show_explore_page():
     data = df.groupby(["Country"])["Salary"].mean().sort_values(ascending=True)
     st.bar_chart(data)
 
-
     st.write(
         """
     #### Mean Salary Based On Experience
     """
     )
 
+    data = df.groupby(["YearsCodePro"])["Salary"].mean().sort_values(ascending=True)
+    st.line_chart(data)
     data = df.groupby(["YearsCodePro"])["Salary"].mean().sort_values(ascending=True)
     st.line_chart(data)
